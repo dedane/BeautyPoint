@@ -7,7 +7,7 @@
     --primary-color: #fad8d8;
     --light-gray: #2b3032a1;
     --Noto: "Noto Sans",NotoSans; 
-    --Roboto: "Robot",Roboto;
+    --Roboto: "Roboto",Roboto;
 }
 primary-color{
     color: var(--primary-color);
