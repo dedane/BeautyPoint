@@ -1,1 +1,40 @@
 /* Import fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans&family=Roboto:wght@300&display=swap');
+:root {
+    --secondary-color: #ffffff;
+    --red-color: red;
+    --primary-color: #fad8d8;
+    --light-gray: #2b3032a1;
+    --Noto: "Noto Sans",NotoSans; 
+    --Roboto: "Robot",Roboto;
+}
+primary-color{
+    color: var(--primary-color);
+}
+.bg-primary-color{
+    background-color: var(--primary-color) !important;
+}
+
+.text-color{
+    color:var(--text-color);
+}
+
+.font-noto{
+    font-family: var(--Noto);
+}
+.Roboto{
+    font-family: var(--Roboto);
+}
+
+
+/* Header */
+header{
+    background-color: black;
+    font-family: var(--Noto);
+}
+
+header .site-title{
+    color: white;
+    font-family: var(--Roboto);
+}
