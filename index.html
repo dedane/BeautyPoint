@@ -16,13 +16,17 @@
 
     <!--Custom stylesheet-->
     <link rel="stylesheet" href="./css/style.css" />
+    <!--Custom Slider-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!--Carousel Javascript-->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- Custom Javascript-->
     <script type="text/Javascript" src="./Javascript/script.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
      integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
 </head>
 <body>
-
+<!-- header -->
     <header class="header">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -57,12 +61,12 @@
             </div>
         </div>
         <!-- <div class="container-fluid"> -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                 <div class="collapse navbar-collapse" id="main_nav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ml-4">
                         <li class="nav-item dropdown has-megamenu show">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="true"> BRANDS  </a>
                             <div class="dropdown-menu megamenu" role="menu">
@@ -70,53 +74,26 @@
                                     <div class="col-md 3">
                                         <div class="col-megamenu">
                                             <ul class="list-unstyled">
-                                                <li>
-                                                    <a href="#">Tigi Bed Head</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Tigi Bed Head</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Paul Mitchel</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Paul Mitchel</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Kevin Murphy</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Kevin Murphy</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Kerastase</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Kerastase</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">GHD</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">GHD</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Dyson</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Dyson</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">OPI</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-md 3">
-                                        <div class="col-megamenu">
-                                            <ul class="list-unstyled">
-                                                <li>
-                                                    <a href="#">Kinetics</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Sexy Hair</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Macadamia</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Tangle Teezer</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Tangle Angel</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">OMG Double Dare</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Arcaya & GlamGlow</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">OPI</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -124,53 +101,26 @@
                                     <div class="col-md 3">
                                         <div class="col-megamenu">
                                             <ul class="list-unstyled">
-                                                <li>
-                                                    <a href="#">Morphosis Frameci</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Kinetics</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Abril-et-nature</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sexy Hair</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Acca Kappa</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Macadamia</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Black Professional</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Tangle Teezer</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Joc Barex</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Tangle Angel</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">EOS</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">OMG Double Dare</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">RED LIST</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-md 3">
-                                        <div class="col-megamenu">
-                                            <ul class="list-unstyled">
-                                                <li>
-                                                    <a href="#">Keune</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Kemon</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">American Crew</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Saante</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Argan Deluxe</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Cosmos Cosmetics</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Indola</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Arcaya & GlamGlow</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -178,26 +128,26 @@
                                     <div class="col-md 3">
                                         <div class="col-megamenu">
                                             <ul class="list-unstyled">
-                                                <li>
-                                                    <a href="#">PetitFee</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Morphosis Frameci</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Bella Donna</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Abril-et-nature</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Harmony</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Acca Kappa</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Hessandro</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Black Professional</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Rojal</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Joc Barex</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Lily Hairline</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">EOS</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Foot LOGIX</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">RED LIST</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -205,17 +155,71 @@
                                     <div class="col-md 3">
                                         <div class="col-megamenu">
                                             <ul class="list-unstyled">
-                                                <li>
-                                                    <a href="#">Gosol</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Keune</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Casmare</a>
+                                                <li class="nav-item">
+                                                    <a href="# " class="nav-link">Kemon</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Stila</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">American Crew</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Biotina Kativa</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Saante</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Argan Deluxe</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Cosmos Cosmetics</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Indola</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md 3">
+                                        <div class="col-megamenu">
+                                            <ul class="list-unstyled">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">PetitFee</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Bella Donna</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Harmony</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Hessandro</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Rojal</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Lily Hairline</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Foot LOGIX</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md 3">
+                                        <div class="col-megamenu">
+                                            <ul class="list-unstyled">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Gosol</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Casmare</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Stila</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Biotina Kativa</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -232,35 +236,35 @@
                                     <div class="col-megamenu">
                                         <ul class="list-unstyled">
                                             <h6 class="title">Shampoo /Conditioner/ Mask</h6>
-                                            <li>
-                                                <a href="#">Volumed</a>
+                                            <li class="nav-item"> 
+                                                <a href="#" class="nav-link">Volumed</a>
                                             </li>
-                                            <li>
-                                                <a href="#">Dry and Damaged</a>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Dry and Damaged</a>
                                             </li>
-                                            <li>
-                                                <a href="#">XColored Hair</a>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">XColored Hair</a>
                                             </li>
-                                            <li>
-                                                <a href="#">Hair Loss/Hair Growth</a>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Hair Loss/Hair Growth</a>
                                             </li>
-                                            <li>
-                                                <a href="#">Curly Hair</a>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Curly Hair</a>
                                             </li>
-                                            <li>
-                                                <a href="#">Blonde Hair</a>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Blonde Hair</a>
                                             </li>
-                                            <li>
-                                                <a href="#">Anti Dandruff</a>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Anti Dandruff</a>
                                             </li>
-                                            <li>
-                                                <a href="#">Oily / Itchy Scalp</a>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Oily / Itchy Scalp</a>
                                             </li>
-                                            <li>
-                                                <a href="#">Sulphate/ Paraben Free</a>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Sulphate/ Paraben Free</a>
                                             </li>
-                                            <li>
-                                                <a href="#">Dry Shampoo</a>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Dry Shampoo</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -269,14 +273,14 @@
                                     <div class="col-megamenu">
                                         <ul class="list-unstyled">
                                             <h6 class="title">Shampoo /Conditioner/ Mask</h6>
-                                            <li>
-                                                <a href="#">Serums/Oils/Creams</a>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Serums/Oils/Creams</a>
                                             </li>
-                                            <li>
-                                                <a href="#">Brushes & Hair Tools</a>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Brushes & Hair Tools</a>
                                             </li>
-                                            <li>
-                                                <a href="#">Styling Products</a>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Styling Products</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -291,23 +295,23 @@
                                     <div class="col-md 3">
                                         <div class="col-megamenu">
                                             <ul class="list-unstyled">
-                                                <li>
-                                                    <a href="#">Face Serum</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Face Serum</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Face Cream</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Face Cream</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Eye Care</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Eye Care</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Masks</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Masks</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Cleansers/ Tonic Scrubs</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Cleansers/ Tonic Scrubs</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Facial Tools</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Facial Tools</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -316,26 +320,26 @@
                                         <div class="col-megamenu">
                                             <ul class="list-unstyled">
                                                 <h6 class="title">Skin Concerns</h6>
-                                                <li>
-                                                    <a href="#">Anti Ageing</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Anti Ageing</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Sensitive Skin</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sensitive Skin</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Dry Skin</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Dry Skin</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Oily Skin</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Oily Skin</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Dehydrated Skin</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Dehydrated Skin</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Dark Circles</a>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Dark Circles</a>
                                                 </li>
-                                                <li>
-                                                    <a href="#">Blemish Prone Skin</a>
+                                                <li  class="nav-item">
+                                                    <a href="#" class="nav-link">Blemish Prone Skin</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -358,7 +362,31 @@
             </div>
         </div>
     </header>
+<!--header-->
 
+<!---MainSection-->
+<main>
+    <div class="container-fluid">
+        <div class="site-slider">
+            <div class="slider-one">
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!--MainSection-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" 
     integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>  
 </body>
