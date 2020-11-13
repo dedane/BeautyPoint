@@ -24,3 +24,15 @@ $('.slider-two')
   slidesToShow: 5,
   slidesToScroll: 1,
 });
+
+
+//isotope filter
+var $grid =$('.grid').isotope({
+  itemSelector: 'grid-item',
+  layoutMpde: 'fitRows'
+});
+
+$(".button-group").on("click","button",function(){
+  var filterValue = $(this).attr("data-filter");
+  $grid.isotope({filter: filterValue})
+})
