@@ -14,16 +14,13 @@ $('.slider-one')
   prevArrow: ".site-slider .slider-btn .prev",
   nextArrow: ".site-slider .slider-btn .next",
 });
+
 $('.slider-two')
 .not(".slick-initialized")
 .slick({
-  dots: true,
-  infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: 'linear',
-  autoplay: true,
   autoplaySpeed: 3000,
-  prevArrow: ".site-slider .slider-btn .prev",
-  nextArrow: ".site-slider .slider-btn .next",
+  prevArrow: ".site-slider-two .prev",
+  nextArrow: ".site-slider-two .next",
+  slidesToShow: 5,
+  slidesToScroll: 1,
 });
