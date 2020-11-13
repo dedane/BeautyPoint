@@ -28,11 +28,11 @@ $('.slider-two')
 
 //isotope filter
 var $grid =$('.grid').isotope({
-  itemSelector: 'grid-item',
-  layoutMpde: 'fitRows'
+  itemSelector: '.grid-item',
+  layoutMode: 'fitRows'
 });
 
 $(".button-group").on("click","button",function(){
-  var filterValue = $(this).attr("data-filter");
+  var filterValue = $(this).attr('data-filter');
   $grid.isotope({filter: filterValue})
 })
