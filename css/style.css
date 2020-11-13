@@ -142,6 +142,6 @@ header .site-title{
     background-color: white;
     color: gray;
 }
-.slider-two .slick-track .product:hover span{
+/* .slider-two .slick-track .product:hover span{
     background-color: var(--primary-color);
-}
+} */
