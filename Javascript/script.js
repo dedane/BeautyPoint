@@ -36,3 +36,14 @@ $(".button-group").on("click","button",function(){
   var filterValue = $(this).attr('data-filter');
   $grid.isotope({filter: filterValue})
 })
+
+//Logo Carousel
+$('.slider-logos')
+.not(".slick-initialized")
+.slick({
+  autoplaySpeed: 3000,
+  prevArrow: ".site-slider-logos .prev",
+  nextArrow: ".site-slider-logos .next",
+  slidesToShow: 5,
+  slidesToScroll: 1,
+});
