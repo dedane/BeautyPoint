@@ -47,3 +47,29 @@ $('.slider-logos')
   slidesToShow: 5,
   slidesToScroll: 1,
 });
+
+
+$(document).ready(function () {
+  $('.stepper').mdbStepper();
+  })
+  
+  function someFunction21() {
+  setTimeout(function () {
+  $('#horizontal-stepper').nextStep();
+  }, 2000);
+  }
+
+  $('#smartwizard').smartWizard({ 
+    selected: 0, 
+    theme: 'default',
+    transitionEffect:'fade',
+    toolbarSettings: {toolbarPosition: 'both',
+                      toolbarExtraButtons: [
+                            {label: 'Finish', css: 'btn-info', onClick: function(){ alert('Finish Clicked'); }},
+                            {label: 'Cancel', css: 'btn-danger', onClick: function(){ $('#smartwizard').smartWizard("reset"); }}
+                        ]
+                    }
+ });
+                         
+
+ 
