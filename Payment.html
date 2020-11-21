@@ -404,7 +404,7 @@
                 <div class="row h-100 justify-content-center align-items-center">
                     <div class="col-md-8 col-md-offset-2">
                         <!-- Form -->
-                        <form class=" login_wrapper" action="" method="post">
+                        <form class="login_wrapper" action="" method="post">
                             <h1>Sign Up</h1>
                             <div class="p-3 text-center">
                                 <h2>Easily using</h2>
@@ -448,7 +448,7 @@
                 <div class="row h-100 justify-content-center align-items-center">
                     <div class="col-md-8 col-md-offset-2">
                         <!-- Form -->
-                        <form class=" login_wrapper" action="" method="post">
+                        <form class="login_wrapper" action="" method="post">
                             <h1>Billings details and Sipping Address</h1>
                             
                             <!-- Input fields -->
@@ -481,13 +481,20 @@
                                         <div class="d-flex jusify-content-start align-items-center rounded p-2"> <input type="text"  class="form-control"  value="NY">  </div>
                                     </div>
                                 </div>
-                            </div> <label>Country</label> 
-                            <select name="country" id="country" class="form-control" >
-                                <option value="usa">Kenya</option>
-                                <option value="ind">Russia</option>
-                            </select>
-                            <div class="login_btn_wrapper p-3">
-                                <button type="submit" class="btn btn-primary login_btn btn-block">Submit</button>
+                            </div> 
+                            <div class="row">
+                              <div class="col-xs-12">
+                                    <label>Country</label> 
+                                    <select name="country" id="country" class="form-control" >
+                                        <option value="usa">Kenya</option>
+                                        <option value="ind">Russia</option>
+                                    </select>
+                              </div>
+                            </div>
+                            <div class="row">
+                                <div class="login_btn_wrapper mt-4">
+                                    <a href="#" class="btn btn-primary login_btn" > Submit </a>
+                                </div>
                             </div>
                             <!-- End input fields -->
         
@@ -510,41 +517,55 @@
             <div class="container h-100">
                 <div class="row h-100 justify-content-center align-items-center">
                     <div class="col-md-8 col-md-offset-2">
-                        <!-- Form -->
-                        <form class=" login_wrapper" action="" method="post">
-                            <h1>Billings details and Sipping Address</h1>
-                            
-                            <!-- Input fields -->
-                            
-                            <div class=""><label>CARD NUMBER</label>
-                                <div class="form-group"> <input type="CARD NUMBER" class="form-control" required="" id="CARDNUMBER" placeholder="Name *"> </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-2"><label>EXPIRY DATE</label>
-                                    <div class="form-group "> 
-                                        <div class="d-flex jusify-content-start align-items-center rounded p-2"> <input type="text"  class="form-control"  value="MM">  </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2"><label>EXPIRY YEAR</label>
-                                    <div class="form-group"> 
-                                        <div class="d-flex jusify-content-start align-items-center  rounded p-2"> <input type="text" class="form-control" value="YY">  </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <div class="form-group"> <label>CVV CODE</label>
-                                        <div class="d-flex jusify-content-end  align-items-center rounded p-2"> <input type="text" class="form-control"  value="CVV">  </div>
-                                    </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <h3 class="text-center">Payment Details</h3>
+                                    <img class="img-responsive cc-img" src="http://www.prepbootstrap.com/Content/images/shared/misc/creditcardicons.png">
                                 </div>
                             </div>
                             
-                            <div class="login_btn_wrapper p-3">
-                                <button type="submit" class="btn btn-primary login_btn btn-block">Submit</button>
-                            </div>
-                            <!-- End input fields -->
-        
-                        </form>
-                        <!-- Form end -->
+                                <form class=" login_wrapper" action="" method="post">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            
+                                            <div class=""><label>Card Number</label>
+                                                <div class="form-group"> <input type="Card Number" class="form-control" required="" id="Card Number" placeholder="Valid Card Number *"> </div>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-7 col-md-7">
+                                            <div class="form-group">
+                                                <label><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+                                                <input type="tel" class="form-control" placeholder="MM / YY" />
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-5 col-md-5 pull-right">
+                                            <div class="form-group">
+                                                <label>CV CODE</label>
+                                                <input type="tel" class="form-control" placeholder="CVC" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="form-group">
+                                                <label>CARD OWNER</label>
+                                                <input type="text" class="form-control" placeholder="Card Owner Names" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <div class="login_btn_wrapper">
+                                            <a href="#" class="btn btn-primary login_btn" > Process Payment </a>
+                                        </div>
+                                    </div>
+                                </form>
+                             
+                                    
+                        </div>
                     </div>
                 </div>
             </div>
