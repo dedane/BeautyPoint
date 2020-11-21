@@ -39,6 +39,15 @@ header .site-title{
     font-family: var(--Roboto);
 }
 
+a,a:hover,a:click, a:visited{
+    border:none;
+    outline:none;
+    text-decoration:none;
+    color:inherit;
+    -webkit-tap-highlight-color: white;
+  }
+
+
 @media all and (min-width: 992px) {
 	.navbar{ padding-top: 0; padding-bottom: 0; }
 	.navbar .has-megamenu{position:static!important;}
@@ -392,6 +401,3 @@ p {
     border-color: #bd4033
 }
 
-a{
-    text-decoration: none;
-}
