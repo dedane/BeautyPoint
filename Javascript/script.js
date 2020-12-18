@@ -69,7 +69,5 @@ $(document).ready(function () {
                             {label: 'Cancel', css: 'btn-danger', onClick: function(){ $('#smartwizard').smartWizard("reset"); }}
                         ]
                     }
- });
-                         
 
- 
+ });
