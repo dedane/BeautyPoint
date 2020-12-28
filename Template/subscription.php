@@ -31,3 +31,22 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
          integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
     </head>
+    <body>
+    <section id="newsletter">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6" >
+                    <h3>Subscribe to more offers and deals</h3>
+                    <p style="color: white;">Be the first to be informed of new arrivals and stocks via our subscription list</p>
+                </div>
+            </div>
+          <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form action="" method="">
+                        <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+                    </form>
+                </div>
+          </div>
+        </div>
+    </section>
+    </body>
