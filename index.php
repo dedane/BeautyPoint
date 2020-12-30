@@ -16,7 +16,6 @@
 
     include('Template/subscription.php');
 ?>
-
 <?php
     include('Template/Footer.php');
 ?>
